@@ -1,0 +1,39 @@
+--- Data Information ---
+None
+
+--- Columns ---
+['Date', 'Store ID', 'Product ID', 'Category', 'Region', 'Inventory Level', 'Units Sold', 'Units Ordered', 'Demand Forecast', 'Price', 'Discount', 'Weather Condition', 'Holiday/Promotion', 'Competitor Pricing', 'Seasonality']
+
+--- Missing Values ---
+Date                  0
+Store ID              0
+Product ID            0
+Category              0
+Region                0
+Inventory Level       0
+Units Sold            0
+Units Ordered         0
+Demand Forecast       0
+Price                 0
+Discount              0
+Weather Condition     0
+Holiday/Promotion     0
+Competitor Pricing    0
+Seasonality           0
+dtype: int64
+
+--- Statistics ---
+              Date  ... Seasonality
+count        73100  ...       73100
+unique         731  ...           4
+top     2022-01-01  ...      Spring
+freq           100  ...       18317
+mean           NaN  ...         NaN
+std            NaN  ...         NaN
+min            NaN  ...         NaN
+25%            NaN  ...         NaN
+50%            NaN  ...         NaN
+75%            NaN  ...         NaN
+max            NaN  ...         NaN
+
+[11 rows x 15 columns]
